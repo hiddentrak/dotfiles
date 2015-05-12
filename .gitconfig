@@ -60,12 +60,18 @@
 	pushInsteadOf = "git://gist.github.com/"
 	pushInsteadOf = "https://gist.github.com/"
 
+[user]
+	name = Myles Bieniasz
+	email = myles.bieniasz@mlb.com
+[url "ssh://github.mlbam.net"]
+	insteadOf = git://github.mlbam.net
+
 
 # Any GitHub repo with my username should be checked out r/w by default
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 
-[url "git@github.com:paulirish/"]
-  insteadOf = "git://github.com/paulirish/"
+[url "git@github.com:hiddentrak/"]
+  insteadOf = "git://github.com/hiddentrak/"
 [help]
 	autocorrect = 1
 
